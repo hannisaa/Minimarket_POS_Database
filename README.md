@@ -1,64 +1,54 @@
 # Minimarket Point of Sales Database
+## Deskripsi Proyek
 
-## Overview
+Proyek ini merupakan perancangan dan implementasi database untuk sistem Point of Sales (POS) pada minimarket. Database ini dirancang untuk mengelola data produk, kategori, supplier, karyawan, transaksi penjualan, serta laporan penjualan secara terstruktur.
 
-This project is a relational database system designed for a Minimarket Point of Sales (POS) application.
-
-The database manages:
-
-- Product inventory
-- Supplier information
-- Employee data
-- Sales transactions
-- Transaction details
-- Reporting system
-
-## Technologies
+## Teknologi yang Digunakan
 
 - MySQL
 - XAMPP
 - phpMyAdmin
 
-## Database Features
+## Fitur Database
 
-### Tables
+### Tabel
 
-1. Category
-2. Employee
-3. Product
-4. Supplier
-5. Transaction
-6. Transaction Detail
+1. tb_category
+2. tb_employeer
+3. tb_product
+4. tb_supplier
+5. tb_transaction
+6. tb_trans_detail
+   
+## View
 
-### Views
+- view_sales_report
+ view_period_sales
+ view_low_stock_products
+ view_detail_transaksi
+- view_employee_performance
 
-- Sales Report
-- Sales Per Period
-- Low Stock Products
-- Transaction Detail
-- Employee Performance
+## Stored Procedure
 
-### Stored Procedures
+ proc_add_employee
+ proc_add_new_product
+ proc_add_to_cart
+ proc_new_transactions
+ proc_update_stock
 
-- Add Employee
-- Add New Product
-- Add To Cart
-- New Transaction
-- Update Stock
+## Trigger
 
-### Triggers
+ trg_check_stock
+ trg_before_insert_tb_employe
+ trg_before_update_transactio
+ trg_cant_delete_trans_history
+ trg_cant_same_name_product
 
-- Check Stock
-- Prevent Duplicate Product Name
-- Prevent Transaction History Deletion
-- Employee Validation
-- Transaction Validation
+## Struktur Database
 
-## ERD
+Database ini menggunakan konsep relasional dengan hubungan antara tabel kategori, produk, supplier, karyawan, transaksi, dan detail transaksi untuk mendukung proses bisnis minimarket.
 
-![ERD](docs/ERD.png)
-
-## Authors
+## Anggota Kelompok
 
 - Hilwa Annisa
 - Briant Abrar Antora
