@@ -23,26 +23,26 @@ Proyek ini merupakan perancangan dan implementasi database untuk sistem Point of
 ## View
 
 - view_sales_report
- view_period_sales
- view_low_stock_products
- view_detail_transaksi
+- view_period_sales
+- view_low_stock_products
+- view_detail_transaksi
 - view_employee_performance
 
 ## Stored Procedure
 
- proc_add_employee
- proc_add_new_product
- proc_add_to_cart
- proc_new_transactions
- proc_update_stock
+- proc_add_employee
+- proc_add_new_product
+- proc_add_to_cart
+- proc_new_transactions
+- proc_update_stock
 
 ## Trigger
 
- trg_check_stock
- trg_before_insert_tb_employe
- trg_before_update_transactio
- trg_cant_delete_trans_history
- trg_cant_same_name_product
+- trg_check_stock
+- trg_before_insert_tb_employe
+- trg_before_update_transactio
+- trg_cant_delete_trans_history
+- trg_cant_same_name_product
 
 ## Struktur Database
 
